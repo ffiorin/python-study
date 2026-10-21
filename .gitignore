@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets — NEVER commit
+.env
+*.pem
+*.key
+secrets.*
+
+# Terraform (project 1)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# System
+.vscode/
+Thumbs.db
